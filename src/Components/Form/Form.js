@@ -30,7 +30,7 @@ const Form = ({ initialValues, handleSubmit }) => (
     validationSchema={validations}
   >
     <FormikForm className="Form">
-      <h1 className="Form-Welcome">Grupo Zelo</h1>
+      <h1 className="Form-Welcome"> Bem Vindo </h1>
       <h2 className="Form-Info">
         Digite seu Usuário e Senha para acessar o Sistema
       </h2>
