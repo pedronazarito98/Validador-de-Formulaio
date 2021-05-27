@@ -17,10 +17,7 @@ const validations = yup.object().shape({
     .min(8, "Mínimo de 8 caracteres")
     .required("Digite sua senha"),
 
-  cpf: yup
-    .number()
-    .max(11, "Número de caracteres excedido")
-    .required("Digite seu CPF"),
+  cpf: yup.number().max(11).required("Digite seu CPF"),
 });
 
 const Form = ({ initialValues, handleSubmit }) => (
